@@ -3,15 +3,16 @@ import editor from '../utils/data';
 import { CONSTANTS } from '../utils/constants';
 import { GameRecord, Scores, StoredGameRecord } from '../model/record';
 import { isValidRecord } from '../utils/validation/record';
-
+import { log, error } from '../utils/logger';
 class GameController {
     async getScores(req: Request, res: Response): Promise<void> {
-        console.log("[GameController]: getScores called!")
+        log("GameController", 'getScores called!');
         const storedData = await editor.readData(CONSTANTS.GAME_DATA_FILEPATH);
 	    res.status(201).json({message: "getScores called!", records: storedData.game});
     }
 
     async postScore(req: Request, res: Response): Promise<void> {
+        log("GameController", 'postScore called!');
         // req.body contains { score: number, state: string, playerId: string }
         console.log(req.body);
 
