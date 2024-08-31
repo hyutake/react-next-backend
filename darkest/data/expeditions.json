@@ -1,458 +1,434 @@
 {
-    "expeditions": [],
-    "recommendations": [
-        {
-            "dungeon": "Ruins",
-            "provisions": {
-                "short": {
-                    "antivenom": 0,
-                    "bandage": 1,
-                    "curseCure": 0,
-                    "dogTreats": 0,
-                    "fireWood": 0,
-                    "food": 12,
-                    "holyWater": 2,
-                    "laudanum": 0,
-                    "medicinalHerb": 1,
-                    "shovel": 2,
-                    "skeletonKey": 1,
-                    "aegisScale": 0,
-                    "theBlood": 0,
-                    "torch": 8
-                },
-                "medium": {
-                    "antivenom": 0,
-                    "bandage": 2,
-                    "curseCure": 0,
-                    "dogTreats": 0,
-                    "fireWood": 1,
-                    "food": 20,
-                    "holyWater": 3,
-                    "laudanum": 0,
-                    "medicinalHerb": 2,
-                    "shovel": 3,
-                    "skeletonKey": 2,
-                    "aegisScale": 0,
-                    "theBlood": 0,
-                    "torch": 13
-                },
-                "long": {
-                    "antivenom": 0,
-                    "bandage": 3,
-                    "curseCure": 0,
-                    "food": 22,
-                    "dogTreats": 0,
-                    "fireWood": 2,
-                    "holyWater": 4,
-                    "laudanum": 0,
-                    "medicinalHerb": 3,
-                    "shovel": 4,
-                    "skeletonKey": 3,
-                    "aegisScale": 0,
-                    "theBlood": 0,
-                    "torch": 16
-                }
+  "expeditions": [],
+  "recommendations": [
+    {
+        "dungeon": "Ruins",
+        "provisions": {
+            "short": {
+                "fireWood": 0,
+                "dogTreats": 0,
+                "food": 12,
+                "shovel": 2,
+                "antivenom": 0,
+                "bandage": 1,
+                "medicinalHerb": 1,
+                "skeletonKey": 1,
+                "holyWater": 2,
+                "laudanum": 0,
+                "torch": 8,
+                "curseCure": 0,
+                "aegisScale": 0,
+                "theBlood": 0
             },
-            "cost": {
-                "short": 0,
-                "medium": 0,
-                "long": 0
+            "medium": {
+                "fireWood": 1,
+                "dogTreats": 0,
+                "food": 20,
+                "shovel": 3,
+                "antivenom": 0,
+                "bandage": 2,
+                "medicinalHerb": 2,
+                "skeletonKey": 2,
+                "holyWater": 3,
+                "laudanum": 0,
+                "torch": 13,
+                "curseCure": 0,
+                "aegisScale": 0,
+                "theBlood": 0
             },
-            "heroes": [4, 7, 9, 10, 15],
-            "tips": [
-                "Majority of enemies here are unholy type",
-                "Crusader and Vestal have bonus % dmg against unholy type enemies",
-                "Crusader and Vestal both have decent +torch abilities - can save on torches brought",
-                "There are many stress afflictors in the Ruins, so 'self sufficient' heroes like Leper is decent",
-                "Stress afflictors are usually in pos 3 or 4, so it's advised to bring a dmg dealer that can target those positions"
-            ]
+            "long": {
+                "fireWood": 2,
+                "dogTreats": 0,
+                "food": 22,
+                "shovel": 4,
+                "antivenom": 0,
+                "bandage": 3,
+                "medicinalHerb": 3,
+                "skeletonKey": 3,
+                "holyWater": 4,
+                "laudanum": 0,
+                "torch": 16,
+                "curseCure": 0,
+                "aegisScale": 0,
+                "theBlood": 0
+            }
         },
-        {
-            "dungeon": "Warrens",
-            "provisions": {
-                "short": {
-                    "antivenom": 0,
-                    "bandage": 1,
-                    "curseCure": 0,
-                    "dogTreats": 0,
-                    "fireWood": 0,
-                    "food": 12,
-                    "holyWater": 2,
-                    "laudanum": 0,
-                    "medicinalHerb": 3,
-                    "shovel": 2,
-                    "skeletonKey": 2,
-                    "aegisScale": 0,
-                    "theBlood": 0,
-                    "torch": 10
-                },
-                "medium": {
-                    "antivenom": 1,
-                    "bandage": 2,
-                    "curseCure": 0,
-                    "dogTreats": 0,
-                    "fireWood": 1,
-                    "food": 20,
-                    "holyWater": 3,
-                    "laudanum": 0,
-                    "medicinalHerb": 4,
-                    "shovel": 3,
-                    "skeletonKey": 3,
-                    "aegisScale": 0,
-                    "theBlood": 0,
-                    "torch": 16
-                },
-                "long": {
-                    "antivenom": 1,
-                    "bandage": 3,
-                    "curseCure": 0,
-                    "dogTreats": 0,
-                    "fireWood": 2,
-                    "food": 22,
-                    "holyWater": 4,
-                    "laudanum": 0,
-                    "medicinalHerb": 5,
-                    "shovel": 4,
-                    "skeletonKey": 3,
-                    "aegisScale": 0,
-                    "theBlood": 0,
-                    "torch": 20
-                }
-            },
-            "cost": {
-                "short": 0,
-                "medium": 0,
-                "long": 0
-            },
-            "heroes": [6, 7, 8, 9, 16],
-            "tips": [
-                "Majority of enemies here are beast type",
-                "Houndmaster has bonus % dmg against beast type enemies",
-                "Majority of enemies here have low bleed resist",
-                "Hellion, Jester and Flagellant can inflict high bleed"
-            ]
+        "cost": {
+            "short": 0,
+            "medium": 0,
+            "long": 0
         },
-        {
-            "dungeon": "Weald",
-            "provisions": {
-                "short": {
-                    "antivenom": 2,
-                    "bandage": 2,
-                    "curseCure": 0,
-                    "dogTreats": 0,
-                    "fireWood": 0,
-                    "food": 12,
-                    "holyWater": 1,
-                    "laudanum": 0,
-                    "medicinalHerb": 1,
-                    "shovel": 3,
-                    "skeletonKey": 1,
-                    "aegisScale": 0,
-                    "theBlood": 0,
-                    "torch": 8
-                },
-                "medium": {
-                    "antivenom": 3,
-                    "bandage": 3,
-                    "curseCure": 0,
-                    "dogTreats": 0,
-                    "fireWood": 1,
-                    "food": 20,
-                    "holyWater": 2,
-                    "laudanum": 0,
-                    "medicinalHerb": 2,
-                    "shovel": 5,
-                    "skeletonKey": 2,
-                    "aegisScale": 0,
-                    "theBlood": 0,
-                    "torch": 13
-                },
-                "long": {
-                    "antivenom": 4,
-                    "bandage": 4,
-                    "curseCure": 0,
-                    "dogTreats": 0,
-                    "fireWood": 2,
-                    "food": 22,
-                    "holyWater": 3,
-                    "laudanum": 0,
-                    "medicinalHerb": 2,
-                    "shovel": 6,
-                    "skeletonKey": 2,
-                    "aegisScale": 0,
-                    "theBlood": 0,
-                    "torch": 16
-                }
-            },
-            "cost": {
-                "short": 0,
-                "medium": 0,
-                "long": 0
-            },
-            "heroes": [8, 13, 14],
-            "tips": [
-                "Majority of enemies here are beast/eldritch type",
-                "Houndmaster has bonus % dmg against beast type enemies",
-                "Occultist has bonus % dmg against eldritch type enemies",
-                "Majority of enemies here can inflict bleed/blight - Plague Doctor effectively acts as a free bandage/antivenom",
-                "Occultist is the best healer as long as rng favors you - Plague Doctor can also fix any bloody mishaps :>",
-                "A lot of obstacles (need shovels)"
-            ]
+        "heroes": [4, 7, 9, 10, 15],
+        "tips": [
+            "Majority of enemies here are unholy type",
+            "Crusader and Vestal have bonus % dmg against unholy type enemies",
+            "Crusader and Vestal both have decent +torch abilities - can save on torches brought",
+            "There are many stress afflictors in the Ruins, so 'self sufficient' heroes like Leper is decent",
+            "Stress afflictors are usually in pos 3 or 4, so it's advised to bring a dmg dealer that can target those positions"
+        ]
+    },
+    {
+      "dungeon": "Warrens",
+      "provisions": {
+        "short": {
+          "fireWood": 0,
+          "dogTreats": 0,
+          "food": 12,
+          "shovel": 2,
+          "antivenom": 0,
+          "bandage": 1,
+          "medicinalHerb": 3,
+          "skeletonKey": 2,
+          "holyWater": 2,
+          "laudanum": 0,
+          "torch": 10,
+          "curseCure": 0,
+          "aegisScale": 0,
+          "theBlood": 0
         },
-        {
-            "dungeon": "Cove",
-            "provisions": {
-                "short": {
-                    "antivenom": 0,
-                    "bandage": 2,
-                    "curseCure": 0,
-                    "dogTreats": 0,
-                    "fireWood": 0,
-                    "food": 12,
-                    "holyWater": 0,
-                    "laudanum": 0,
-                    "medicinalHerb": 2,
-                    "shovel": 3,
-                    "skeletonKey": 1,
-                    "aegisScale": 0,
-                    "theBlood": 0,
-                    "torch": 8
-                },
-                "medium": {
-                    "antivenom": 0,
-                    "bandage": 4,
-                    "curseCure": 0,
-                    "dogTreats": 0,
-                    "fireWood": 1,
-                    "food": 20,
-                    "holyWater": 1,
-                    "laudanum": 0,
-                    "medicinalHerb": 3,
-                    "shovel": 5,
-                    "skeletonKey": 2,
-                    "aegisScale": 0,
-                    "theBlood": 0,
-                    "torch": 14
-                },
-                "long": {
-                    "antivenom": 0,
-                    "bandage": 6,
-                    "curseCure": 0,
-                    "dogTreats": 0,
-                    "fireWood": 2,
-                    "food": 22,
-                    "holyWater": 1,
-                    "laudanum": 0,
-                    "medicinalHerb": 4,
-                    "shovel": 6,
-                    "skeletonKey": 3,
-                    "aegisScale": 0,
-                    "theBlood": 0,
-                    "torch": 16
-                }
-            },
-            "cost": {
-                "short": 0,
-                "medium": 0,
-                "long": 0
-            },
-            "heroes": [5, 13, 14, 17],
-            "tips": [
-                "Majority of enemies here are eldritch type",
-                "Occultist has bonus % dmg against eldritch type enemies",
-                "Majority of enemies here have low blight resist",
-                "Majority of enemies here can inflict bleed - can be dealt with using Plague Doctor",
-                "Grave Robber and ShieldBreaker have (some) blight synergy"
-            ]
+        "medium": {
+          "fireWood": 1,
+          "dogTreats": 0,
+          "food": 20,
+          "shovel": 3,
+          "antivenom": 1,
+          "bandage": 2,
+          "medicinalHerb": 4,
+          "skeletonKey": 3,
+          "holyWater": 3,
+          "laudanum": 0,
+          "torch": 16,
+          "curseCure": 0,
+          "aegisScale": 0,
+          "theBlood": 0
         },
-        {
-            "dungeon": "Courtyard",
-            "provisions": {
-                "short": {
-                    "antivenom": 0,
-                    "bandage": 0,
-                    "curseCure": 0,
-                    "dogTreats": 0,
-                    "fireWood": 0,
-                    "food": 0,
-                    "holyWater": 0,
-                    "laudanum": 0,
-                    "medicinalHerb": 0,
-                    "shovel": 0,
-                    "skeletonKey": 0,
-                    "aegisScale": 0,
-                    "theBlood": 0,
-                    "torch": 0
-                },
-                "medium": {
-                    "antivenom": 0,
-                    "bandage": 0,
-                    "curseCure": 0,
-                    "dogTreats": 0,
-                    "fireWood": 1,
-                    "food": 0,
-                    "holyWater": 0,
-                    "laudanum": 0,
-                    "medicinalHerb": 0,
-                    "shovel": 0,
-                    "skeletonKey": 0,
-                    "aegisScale": 0,
-                    "theBlood": 0,
-                    "torch": 0
-                },
-                "long": {
-                    "antivenom": 0,
-                    "bandage": 0,
-                    "curseCure": 0,
-                    "dogTreats": 0,
-                    "fireWood": 2,
-                    "food": 0,
-                    "holyWater": 0,
-                    "laudanum": 0,
-                    "medicinalHerb": 0,
-                    "shovel": 0,
-                    "skeletonKey": 0,
-                    "aegisScale": 0,
-                    "theBlood": 0,
-                    "torch": 0
-                }
-            },
-            "cost": {
-                "short": 0,
-                "medium": 0,
-                "long": 0
-            },
-            "heroes": [6, 7, 8, 9, 11, 13, 14, 15, 16],
-            "tips": [
-                "Majority of enemies here are bloodsucker type",
-                "Majority of enemies here have low bleed resist",
-                "Considering Flagellant was released WITH this DLC, this class is literally MADE for this dungeon",
-                "Hellion, Jester and Flagellant can inflict high bleed",
-                "Hellion, Houndmaster and Highwayman have high flexibility in which positions they can target + good dmg dealers",
-                "With the right trinkets, Plague Doctor / Vestal can be solid stunners"
-            ]
-        },
-        {
-            "dungeon": "Farmstead",
-            "provisions": {
-                "short": {
-                    "antivenom": 0,
-                    "bandage": 0,
-                    "curseCure": 0,
-                    "dogTreats": 0,
-                    "fireWood": 0,
-                    "food": 0,
-                    "holyWater": 0,
-                    "laudanum": 0,
-                    "medicinalHerb": 0,
-                    "shovel": 0,
-                    "skeletonKey": 0,
-                    "aegisScale": 0,
-                    "theBlood": 0,
-                    "torch": 0
-                },
-                "medium": {
-                    "antivenom": 0,
-                    "bandage": 0,
-                    "curseCure": 0,
-                    "dogTreats": 0,
-                    "fireWood": 1,
-                    "food": 0,
-                    "holyWater": 0,
-                    "laudanum": 0,
-                    "medicinalHerb": 0,
-                    "shovel": 0,
-                    "skeletonKey": 0,
-                    "aegisScale": 0,
-                    "theBlood": 0,
-                    "torch": 0
-                },
-                "long": {
-                    "antivenom": 0,
-                    "bandage": 0,
-                    "curseCure": 0,
-                    "dogTreats": 0,
-                    "fireWood": 2,
-                    "food": 0,
-                    "holyWater": 0,
-                    "laudanum": 0,
-                    "medicinalHerb": 0,
-                    "shovel": 0,
-                    "skeletonKey": 0,
-                    "aegisScale": 0,
-                    "theBlood": 0,
-                    "torch": 0
-                }
-            },
-            "cost": {
-                "short": 0,
-                "medium": 0,
-                "long": 0
-            },
-            "heroes": [],
-            "tips": []
-        },
-        {
-            "dungeon": "Darkest Dungeon",
-            "provisions": {
-                "short": {
-                    "antivenom": 0,
-                    "bandage": 0,
-                    "curseCure": 0,
-                    "dogTreats": 0,
-                    "fireWood": 0,
-                    "food": 0,
-                    "holyWater": 0,
-                    "laudanum": 0,
-                    "medicinalHerb": 0,
-                    "shovel": 0,
-                    "skeletonKey": 0,
-                    "aegisScale": 0,
-                    "theBlood": 0,
-                    "torch": 0
-                },
-                "medium": {
-                    "antivenom": 0,
-                    "bandage": 0,
-                    "curseCure": 0,
-                    "dogTreats": 0,
-                    "fireWood": 1,
-                    "food": 0,
-                    "holyWater": 0,
-                    "laudanum": 0,
-                    "medicinalHerb": 0,
-                    "shovel": 0,
-                    "skeletonKey": 0,
-                    "aegisScale": 0,
-                    "theBlood": 0,
-                    "torch": 0
-                },
-                "long": {
-                    "antivenom": 0,
-                    "bandage": 0,
-                    "curseCure": 0,
-                    "dogTreats": 0,
-                    "fireWood": 2,
-                    "food": 0,
-                    "holyWater": 0,
-                    "laudanum": 0,
-                    "medicinalHerb": 0,
-                    "shovel": 0,
-                    "skeletonKey": 0,
-                    "aegisScale": 0,
-                    "theBlood": 0,
-                    "torch": 0
-                }
-            },
-            "cost": {
-                "short": 0,
-                "medium": 0,
-                "long": 0
-            },
-            "heroes": [],
-            "tips": [
-                "Make sure your heroes are levelled to their fullest + max gear! No point risking it"
-            ]
+        "long": {
+          "fireWood": 2,
+          "dogTreats": 0,
+          "food": 22,
+          "shovel": 4,
+          "antivenom": 1,
+          "bandage": 3,
+          "medicinalHerb": 5,
+          "skeletonKey": 3,
+          "holyWater": 4,
+          "laudanum": 0,
+          "torch": 20,
+          "curseCure": 0,
+          "aegisScale": 0,
+          "theBlood": 0
         }
-    ]
+      },
+      "cost": { "short": 0, "medium": 0, "long": 0 },
+      "heroes": [6, 7, 8, 9, 16],
+      "tips": [
+        "Majority of enemies here are beast type",
+        "Houndmaster has bonus % dmg against beast type enemies",
+        "Majority of enemies here have low bleed resist",
+        "Hellion, Jester and Flagellant can inflict high bleed"
+      ]
+    },
+    {
+      "dungeon": "Weald",
+      "provisions": {
+        "short": {
+          "fireWood": 0,
+          "dogTreats": 0,
+          "food": 12,
+          "shovel": 3,
+          "antivenom": 2,
+          "bandage": 2,
+          "medicinalHerb": 1,
+          "skeletonKey": 1,
+          "holyWater": 1,
+          "laudanum": 0,
+          "torch": 8,
+          "curseCure": 0,
+          "aegisScale": 0,
+          "theBlood": 0
+        },
+        "medium": {
+          "fireWood": 1,
+          "dogTreats": 0,
+          "food": 20,
+          "shovel": 5,
+          "antivenom": 3,
+          "bandage": 3,
+          "medicinalHerb": 2,
+          "skeletonKey": 2,
+          "holyWater": 2,
+          "laudanum": 0,
+          "torch": 13,
+          "curseCure": 0,
+          "aegisScale": 0,
+          "theBlood": 0
+        },
+        "long": {
+          "fireWood": 2,
+          "dogTreats": 0,
+          "food": 22,
+          "shovel": 6,
+          "antivenom": 4,
+          "bandage": 4,
+          "medicinalHerb": 2,
+          "skeletonKey": 2,
+          "holyWater": 3,
+          "laudanum": 0,
+          "torch": 16,
+          "curseCure": 0,
+          "aegisScale": 0,
+          "theBlood": 0
+        }
+      },
+      "cost": { "short": 0, "medium": 0, "long": 0 },
+      "heroes": [8, 13, 14],
+      "tips": [
+        "Majority of enemies here are beast/eldritch type",
+        "Houndmaster has bonus % dmg against beast type enemies",
+        "Occultist has bonus % dmg against eldritch type enemies",
+        "Majority of enemies here can inflict bleed/blight - Plague Doctor effectively acts as a free bandage/antivenom",
+        "Occultist is the best healer as long as rng favors you - Plague Doctor can also fix any bloody mishaps :>",
+        "A lot of obstacles (need shovels)"
+      ]
+    },
+    {
+      "dungeon": "Cove",
+      "provisions": {
+        "short": {
+          "fireWood": 0,
+          "dogTreats": 0,
+          "food": 12,
+          "shovel": 3,
+          "antivenom": 0,
+          "bandage": 2,
+          "medicinalHerb": 2,
+          "skeletonKey": 1,
+          "holyWater": 0,
+          "laudanum": 0,
+          "torch": 8,
+          "curseCure": 0,
+          "aegisScale": 0,
+          "theBlood": 0
+        },
+        "medium": {
+          "fireWood": 1,
+          "dogTreats": 0,
+          "food": 20,
+          "shovel": 5,
+          "antivenom": 0,
+          "bandage": 4,
+          "medicinalHerb": 3,
+          "skeletonKey": 2,
+          "holyWater": 1,
+          "laudanum": 0,
+          "torch": 14,
+          "curseCure": 0,
+          "aegisScale": 0,
+          "theBlood": 0
+        },
+        "long": {
+          "fireWood": 2,
+          "dogTreats": 0,
+          "food": 22,
+          "shovel": 6,
+          "antivenom": 0,
+          "bandage": 6,
+          "medicinalHerb": 4,
+          "skeletonKey": 3,
+          "holyWater": 1,
+          "laudanum": 0,
+          "torch": 16,
+          "curseCure": 0,
+          "aegisScale": 0,
+          "theBlood": 0
+        }
+      },
+      "cost": { "short": 0, "medium": 0, "long": 0 },
+      "heroes": [5, 13, 14, 17],
+      "tips": [
+        "Majority of enemies here are eldritch type",
+        "Occultist has bonus % dmg against eldritch type enemies",
+        "Majority of enemies here have low blight resist",
+        "Majority of enemies here can inflict bleed - can be dealt with using Plague Doctor",
+        "Grave Robber and ShieldBreaker have (some) blight synergy"
+      ]
+    },
+    {
+      "dungeon": "Courtyard",
+      "provisions": {
+        "short": {
+          "fireWood": 0,
+          "dogTreats": 0,
+          "food": 0,
+          "shovel": 0,
+          "antivenom": 0,
+          "bandage": 0,
+          "medicinalHerb": 0,
+          "skeletonKey": 0,
+          "holyWater": 0,
+          "laudanum": 0,
+          "torch": 0,
+          "curseCure": 0,
+          "aegisScale": 0,
+          "theBlood": 0
+        },
+        "medium": {
+          "fireWood": 1,
+          "dogTreats": 0,
+          "food": 0,
+          "shovel": 0,
+          "antivenom": 0,
+          "bandage": 0,
+          "medicinalHerb": 0,
+          "skeletonKey": 0,
+          "holyWater": 0,
+          "laudanum": 0,
+          "torch": 0,
+          "curseCure": 0,
+          "aegisScale": 0,
+          "theBlood": 0
+        },
+        "long": {
+          "fireWood": 2,
+          "dogTreats": 0,
+          "food": 0,
+          "shovel": 0,
+          "antivenom": 0,
+          "bandage": 0,
+          "medicinalHerb": 0,
+          "skeletonKey": 0,
+          "holyWater": 0,
+          "laudanum": 0,
+          "torch": 0,
+          "curseCure": 0,
+          "aegisScale": 0,
+          "theBlood": 0
+        }
+      },
+      "cost": { "short": 0, "medium": 0, "long": 0 },
+      "heroes": [6, 7, 8, 9, 11, 13, 14, 15, 16],
+      "tips": [
+        "Majority of enemies here are bloodsucker type",
+        "Majority of enemies here have low bleed resist",
+        "Considering Flagellant was released WITH this DLC, this class is literally MADE for this dungeon",
+        "Hellion, Jester and Flagellant can inflict high bleed",
+        "Hellion, Houndmaster and Highwayman have high flexibility in which positions they can target + good dmg dealers",
+        "With the right trinkets, Plague Doctor / Vestal can be solid stunners"
+      ]
+    },
+    {
+      "dungeon": "Farmstead",
+      "provisions": {
+        "short": {
+          "fireWood": 0,
+          "dogTreats": 0,
+          "food": 0,
+          "shovel": 0,
+          "antivenom": 0,
+          "bandage": 0,
+          "medicinalHerb": 0,
+          "skeletonKey": 0,
+          "holyWater": 0,
+          "laudanum": 0,
+          "torch": 0,
+          "curseCure": 0,
+          "aegisScale": 0,
+          "theBlood": 0
+        },
+        "medium": {
+          "fireWood": 1,
+          "dogTreats": 0,
+          "food": 0,
+          "shovel": 0,
+          "antivenom": 0,
+          "bandage": 0,
+          "medicinalHerb": 0,
+          "skeletonKey": 0,
+          "holyWater": 0,
+          "laudanum": 0,
+          "torch": 0,
+          "curseCure": 0,
+          "aegisScale": 0,
+          "theBlood": 0
+        },
+        "long": {
+          "fireWood": 2,
+          "dogTreats": 0,
+          "food": 0,
+          "shovel": 0,
+          "antivenom": 0,
+          "bandage": 0,
+          "medicinalHerb": 0,
+          "skeletonKey": 0,
+          "holyWater": 0,
+          "laudanum": 0,
+          "torch": 0,
+          "curseCure": 0,
+          "aegisScale": 0,
+          "theBlood": 0
+        }
+      },
+      "cost": { "short": 0, "medium": 0, "long": 0 },
+      "heroes": [],
+      "tips": []
+    },
+    {
+      "dungeon": "Darkest Dungeon",
+      "provisions": {
+        "short": {
+          "fireWood": 0,
+          "dogTreats": 0,
+          "food": 0,
+          "shovel": 0,
+          "antivenom": 0,
+          "bandage": 0,
+          "medicinalHerb": 0,
+          "skeletonKey": 0,
+          "holyWater": 0,
+          "laudanum": 0,
+          "torch": 0,
+          "curseCure": 0,
+          "aegisScale": 0,
+          "theBlood": 0
+        },
+        "medium": {
+          "fireWood": 1,
+          "dogTreats": 0,
+          "food": 0,
+          "shovel": 0,
+          "antivenom": 0,
+          "bandage": 0,
+          "medicinalHerb": 0,
+          "skeletonKey": 0,
+          "holyWater": 0,
+          "laudanum": 0,
+          "torch": 0,
+          "curseCure": 0,
+          "aegisScale": 0,
+          "theBlood": 0
+        },
+        "long": {
+          "fireWood": 2,
+          "dogTreats": 0,
+          "food": 0,
+          "shovel": 0,
+          "antivenom": 0,
+          "bandage": 0,
+          "medicinalHerb": 0,
+          "skeletonKey": 0,
+          "holyWater": 0,
+          "laudanum": 0,
+          "torch": 0,
+          "curseCure": 0,
+          "aegisScale": 0,
+          "theBlood": 0
+        }
+      },
+      "cost": { "short": 0, "medium": 0, "long": 0 },
+      "heroes": [],
+      "tips": [
+        "Make sure your heroes are levelled to their fullest + max gear! No point risking it"
+      ]
+    }
+  ]
 }
