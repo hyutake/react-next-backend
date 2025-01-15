@@ -23,5 +23,5 @@ const port = process.env.BACKEND_PORT || 4001;
 app.use('/game', gameRouter);
 
 app.listen(port, () => {
-  console.log(`Listening on port ${port}`);
+  console.log(`[Game] Listening on port ${port}`);
 });

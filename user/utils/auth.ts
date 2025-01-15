@@ -39,6 +39,7 @@ export const checkUsername = async (username: string): Promise<User> => {
 };
 
 export const checkAuthMiddleware = (req: Request, res: Response, next: NextFunction) => {
+	console.log("checkAuthMiddleware()");
 	if (req.method === "OPTIONS") {
 		return next();
 	}

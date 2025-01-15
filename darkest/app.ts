@@ -23,5 +23,5 @@ const port = process.env.BACKEND_PORT || 4002;
 app.use('/darkest/expedition', expeditionRouter);
 
 app.listen(port, () => {
-  console.log(`Listening on port ${port}`);
+  console.log(`[Darkest] Listening on port ${port}`);
 });

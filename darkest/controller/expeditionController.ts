@@ -17,35 +17,35 @@ class ExpeditionController {
     }
 
     async findAll(req: Request, res: Response) {
-        this.logger.debug("findAll called!");
+        this.logger.Log("findAll called!");
         const storedData = await editor.readData(CONSTANTS.EXPEDITION_DATA_FILEPATH);
         res.status(200).json("Not yet implemented!");
     }
 
     async findByDungeon(req: Request, res: Response) {
-        this.logger.debug("findByDungeon called!");
+        this.logger.Log("findByDungeon called!");
         const { id } = req.params;
         res.status(200).json("Not yet implemented!");
     }
 
     async findAllRecs(req: Request, res: Response) {
-        this.logger.debug("findAllRecs called!");
+        this.logger.Log("findAllRecs called!");
         const storedData = await editor.readData(CONSTANTS.EXPEDITION_DATA_FILEPATH);
         console.log(storedData.recommendations);
         res.status(200).json(storedData.recommendations);
     }
 
     async findRecsByDungeon(req: Request, res: Response) {
-        this.logger.debug("findRecsByDungeon called!");
+        this.logger.Log("findRecsByDungeon called!");
         const storedData = await editor.readData(CONSTANTS.EXPEDITION_DATA_FILEPATH);
         const { id } = req.params;
         const dungeonId: number = parseInt(id);
-        // this.logger.debug(storedData);
+        // this.logger.Log(storedData);
         res.status(200).json(storedData.recommendations[dungeonId]);
     }
 
     async updateRecsByDungeon(req: Request, res: Response) {
-        this.logger.debug("updateRecsByDungeon called!");
+        this.logger.Log("updateRecsByDungeon called!");
         const { id } = req.params;
         const dungeonId: number = parseInt(id);
         const storedData = await editor.readData(CONSTANTS.EXPEDITION_DATA_FILEPATH);

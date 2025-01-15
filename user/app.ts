@@ -23,5 +23,5 @@ const port = process.env.BACKEND_PORT || 4000;
 app.use('/auth', authRouter);
 
 app.listen(port, () => {
-  console.log(`Listening on port ${port}`);
+  console.log(`[User] Listening on port ${port}`);
 });
